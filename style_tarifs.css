@@ -1,0 +1,553 @@
+                             /* ---------------- Desktop Tarif--------------- */
+                             
+
+body {
+    background-image:url("images/fond_ecran.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+
+.img_rond {
+    height: 250px;
+    width: 250px;
+    border-radius: 130px;
+    box-shadow: 0px 0px 100px 0px rgb(255, 255, 255);
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.img_carre {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 10px 0px rgba(255 255 255 / 100%);
+    margin-top: -30px;
+    margin-right: -30px;  
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 30px;
+    box-shadow: 0px 12px 12px rgb(0 0 0 / 80%);
+}
+
+h1 {
+    color:rgb(215, 215, 215);
+    padding-right : 350px;
+    padding-top: 15px;
+    font-size:26.5px;
+}
+
+h2 {
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.382);
+    height: 60px;
+    padding-top: 8px;
+    box-shadow: 0px 12px 12px rgb(0 0 0 / 50%);
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav i {
+    color: aliceblue;
+}
+
+.aside_article {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.281);
+    height: 800px;
+    margin-top: 100px;
+    box-shadow: 0px 12px 12px rgb(0 0 0 / 90%);
+}
+    
+aside {
+    width: 40%;
+    margin: 50px;
+    color:aliceblue;
+    background-color: rgba(0, 0, 0, 0.732);
+    border-radius: 30px;
+    text-align: center;
+    font-size:x-large ;
+    box-shadow: 0px 6px 6px rgb(0 0 0 / 90%);  
+}
+
+aside i {
+    color:rgb(58, 120, 255);
+    font-weight: 900;
+    margin: 10px;
+}
+
+.fa-3x {
+    padding : 10px;
+    color: rgb(255, 255, 255);
+}
+
+article {
+    width: 80%;
+    height: 800px;
+    background-color: rgba(8, 8, 8, 0.500);
+}
+
+article a {
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+#retour {
+    width: 80px;
+    border-radius: 10px;
+    /* background-color: rgb(150, 150, 150); */
+    margin:10px;
+    padding-left: 5px;
+    background: linear-gradient(#5691ff, #216efd);
+    box-shadow: 0 3px #3d527a;
+    border: 1px solid #6b9fff;
+}
+
+article p {
+    font-size: 25px;
+    color:aliceblue;
+    margin-left: 150px;
+}
+
+article b {
+    margin-left: 130px;
+}
+
+article en {
+    color: rgb(172, 117, 255);
+    font-weight: 700;
+}
+
+article li {
+    font-size: 20px;
+    font-weight: 700;  
+    color:aliceblue;
+}
+
+article i {
+    color:aliceblue;
+}
+
+#FB {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.foot {
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    margin-top : 50px;
+    padding: 20px;  
+    padding-bottom: 14px; 
+    height: 70px;
+}
+
+footer {
+    background-color: rgba(43, 43, 43, 0.661);
+    box-shadow: 0px 0px 30px 0px rgba(255 255 255 / 100%);
+}
+
+#webmaster {
+    color: rgb(0, 0, 0);
+    font-size:medium;
+    font-weight: 700; 
+}
+
+
+
+                                            /* ---------------- SMARTPHONE Tarifs--------------- */
+
+
+@media (max-width: 600px){
+    body {
+        background-image:url("images/fond_ecran.jpg");
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-size: cover;
+    }
+    
+    .img_rond {
+        height: 150px;
+        width: 150px;
+        border-radius: 130px;
+        box-shadow: 0px 0px 100px 0px rgb(255, 255, 255);
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+    
+    .img_carre {
+        height: 150px;
+        width: 150px;
+        box-shadow: 0px 0px 10px 0px rgba(255 255 255 / 100%);
+        margin-top: -30px;
+        margin-left: -390px; 
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    
+    header {
+        display:flex;
+        justify-content:space-between;
+        height: 150px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.288);
+        padding: 30px;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 80%);
+    }
+    
+    h1 {
+        color:rgb(215, 215, 215);
+        margin-right: 40px;
+        font-size:larger;
+    }
+    
+    h2 {
+        text-align:center;
+        color:rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0.382);
+        height: 100px;
+        padding-top: 30px;
+        font-size: 29px;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 50%);
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 29px;
+    }
+    
+    h4 {
+        font-size: 29px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav i {
+        color: aliceblue;
+    }
+    
+    .aside_article {
+        display:flex;
+        flex-direction: column-reverse;
+        background-color: rgba(255, 255, 255, 0.281);
+        height: auto;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 70%);
+        margin-top:20px;
+    }
+        
+    aside {
+        width: 95%;
+        margin: 10px;
+        color:aliceblue;
+        background-color: rgba(0, 0, 0, 0.732);
+        border-radius: 30px;
+        text-align: center;
+        font-size:x-large ;
+        box-shadow: 0px 6px 6px rgb(0 0 0 / 90%);   
+    }
+    
+    aside i {
+        color:rgb(58, 120, 255);
+        font-weight: 900;
+        margin: 10px;
+        font-size: xx-large;
+    }
+
+    aside p {
+        font-size: 29px;
+    }
+
+    .fa-3x {
+        padding : 10px;
+        color: black;
+    }
+    
+    article {
+        width: 95%;
+        height: auto;
+        background-color: rgba(8, 8, 8, 0.732);
+        border-radius: 25px;
+        box-shadow: 0px 6px 6px rgb(0 0 0 / 90%);
+        margin: 10px;
+    }
+
+    article a {
+        padding: 10px;
+        width: 300px;
+        height:150px;
+    }
+    
+    #retour {
+        width: 100px;
+        height: 70px;
+        border-radius: 40px;
+        /* background-color: rgb(152, 152, 152); */
+        margin-left: -3px;
+        background: linear-gradient(#5691ff, #216efd);
+        box-shadow: 0 3px #3d527a;
+        border: 1px solid #6b9fff;
+    }
+
+    article p {
+        margin-left: 20px;
+        font-size: 25px;
+        color:aliceblue;
+    }
+    
+    article b {
+        margin-left: 130px;
+        color: aliceblue;
+    }
+    
+    article en {
+        color: rgb(172, 117, 255);
+    }
+
+    article li {
+        font-size: 20px;
+        font-weight: 700;  
+        color:aliceblue;
+    }
+    
+    article i {
+        color:aliceblue;
+    }
+    
+    #FB {
+        font-size: x-large;
+        margin-top: 60px;
+        margin-left: 20px;
+     }
+
+     .foot {
+        color:rgb(255, 255, 255);
+        display:flex;
+        justify-content:space-between;
+        margin-top : 50px;
+        padding: 10px;  
+        padding-bottom: 14px; 
+        height: 90px;
+    }
+    
+    footer {
+        background-color: rgba(43, 43, 43, 0.661);
+        box-shadow: 0px 0px 30px 0px rgba(255 255 255 / 100%);
+        height: auto;
+    }
+    
+    #webmaster {
+        color: rgb(0, 0, 0);
+        font-size:small;
+        font-weight: 700;
+        margin-top: 30px; 
+    }
+}
+
+
+                                         /* ---------------- TABLETTE Tarifs--------------- */
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    
+    body {
+        background-image:url("images/fond_ecran.jpg");
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-size: cover; 
+        width: auto;
+    }
+    
+    .img_rond {
+        height: 200px;
+        width: 200px;
+        border-radius: 130px;
+        box-shadow: 0px 0px 100px 0px rgb(255, 255, 255);
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+    
+    .img_carre {
+        height: 200px;
+        width: 200px;
+        box-shadow: 0px 0px 10px 0px rgba(255 255 255 / 100%);
+        margin-top: -30px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    
+    header {
+        display:flex;
+        justify-content:space-between;
+        height: 200px;
+        width:auto;
+        background-color: rgba(0, 0, 0, 0.288);
+        padding: 30px;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 80%);
+    }
+    
+    h1 {
+        color:rgb(215, 215, 215);
+        margin-right: -350px;
+        font-size:larger;
+    }
+    
+    h2 {
+        text-align:center;
+        color:rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0.382);
+        height: 100px;
+        padding-top: 30px;
+        font-size: 32px;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 50%);
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    h4 {
+        font-size: 32px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    
+    nav i {
+        color: aliceblue;
+    }
+    
+    .aside_article {
+        display:flex;
+        flex-direction: column-reverse;
+        background-color: rgba(255, 255, 255, 0.281);
+        height: auto;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 70%);
+        margin-top:20px;
+        padding-left:15px;
+    }
+        
+    aside {
+        width: 97%;
+        margin: 10px;
+        color:aliceblue;
+        background-color: rgba(0, 0, 0, 0.732);
+        border-radius: 30px;
+        text-align: center;
+        font-size:x-large ;
+        box-shadow: 0px 12px 12px rgb(0 0 0 / 70%);   
+    }
+    
+    aside i {
+        color:rgb(58, 120, 255);
+        margin: 10px;
+        font-size: larger;
+    }
+
+    aside p {
+        font-size: 32px;
+    }
+    
+    .fa-3x {
+      padding : 10px;
+      color: black;
+    }
+    
+    article {
+        margin: 10px;
+        width: 97%;
+        height: auto;
+        background-color: rgba(8, 8, 8, 0.732);
+        border-radius: 25px;
+        box-shadow: 0px 6px 6px rgb(0 0 0 / 90%);
+    }
+
+    article a {
+        padding: 10px;
+        width: 300px;
+        height:150px;
+    }
+    
+    #retour {
+        font-size: 32px;
+        width: 120px;
+        height: 70px;
+        border-radius: 40px;
+        /* background-color: rgb(152, 152, 152); */
+        margin-left:-4px;
+    }
+
+    article p {
+        margin-left: 150px;
+        font-size: 32px;
+        color:aliceblue;
+    }
+    
+    article b {
+        margin-left: 350px;
+        color: aliceblue;
+    }
+    
+    article en {
+        color: rgb(172, 117, 255);
+    }
+
+    article li {
+        font-size: 20px;
+        font-weight: 700;  
+        color:aliceblue;
+    }
+    
+    article i {
+        color:aliceblue;
+    }
+    
+    #FB {
+        font-size: x-large;
+        margin-top: 60px;
+        margin-left: 20px;
+     }
+
+     .foot {
+        color:rgb(255, 255, 255);
+        display:flex;
+        justify-content:space-between;
+        margin-top : 50px;
+        padding: 30px;  
+        padding-bottom: 14px; 
+        height: 90px;
+        font-size:large;
+    }
+    
+    footer {
+        background-color: rgba(43, 43, 43, 0.661);
+        box-shadow: 0px 0px 30px 0px rgba(255 255 255 / 100%);
+        height: auto;
+    }
+    
+    #webmaster {
+        color: rgb(0, 0, 0);
+        font-size:medium;
+        font-weight: 700;
+        margin-right: 30px; 
+    }
+}
